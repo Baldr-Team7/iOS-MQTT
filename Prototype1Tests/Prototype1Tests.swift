@@ -7,6 +7,7 @@
 //
 
 import XCTest
+import CocoaMQTT
 @testable import Prototype1
 
 class Prototype1Tests: XCTestCase {
