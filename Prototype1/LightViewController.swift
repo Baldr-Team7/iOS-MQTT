@@ -1,15 +1,18 @@
 //
-//  ChatMessageViewController.swift
+//  LightViewController.swift
 //  Prototype1
 //
-//  Created by LiangZhanou on 2016-10-16.
+//  Created by LiangZhanou on 2016-10-20.
 //  Copyright © 2016 LiangZhanou. All rights reserved.
 //
 
 import UIKit
+import CocoaMQTT
 
-class ChatMessageViewController: UIViewController {
+class LightViewController: UIViewController {
 
+    
+    var mqtt: CocoaMQTT?
     override func viewDidLoad() {
         super.viewDidLoad()
 
